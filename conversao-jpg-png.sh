@@ -1,4 +1,5 @@
 #!/bin/bash
 
-convert ~/Documentos/GitHubPessoal/Shellscript/imagens/$1.jpg ~/Documentos/GitHubPessoal/Shellscript/imagens/$1.png
+CAMINHO=~/Documentos/GitHubPessoal/Shellscript/imagens
 
+convert $CAMINHO/$1.jpg $CAMINHO/$1.png
