@@ -2,4 +2,7 @@
 
 CAMINHO=~/Documentos/GitHubPessoal/Shellscript/imagens
 
-convert $CAMINHO/$1.jpg $CAMINHO/$1.png
+for imagem in $@
+do 
+    convert $CAMINHO/$imagem.jpg $CAMINHO/$imagem.png
+done
